@@ -20,5 +20,8 @@
 (18) git merge Paco                  Se producen conflictos en bitacora.txt ya que
 				     en las dos ramas se ha editado el archivo, es necesario
 				     reorganizarlo manualmente para resolverlo.
-(19)
+(19) 				     Se ha realizado una fusión por Fast-Forward
+
+
+
 
