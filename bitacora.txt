@@ -10,6 +10,11 @@
 (02)    git branch Paco
 (03)    git branch Lola
 (04)    git checkout Paco
+(06)    git add bitacora.txt
+(07)    git commit -m "Paso 7"
+(08)    git checkout Lola
+(10)    git add bitacora.txt
+(11)    git git commit -m "Paso 11"
 (13)    git stash + git checkout master
 (14)                                 En este momento si se hiciera una
 				     fusión de Lola a master se haría por
@@ -21,7 +26,8 @@
 				     en las dos ramas se ha editado el archivo, es necesario
 				     reorganizarlo manualmente para resolverlo.
 (19) 				     Se ha realizado una fusión por Fast-Forward
-
-
-
+(20)    git add bitacora.txt
+(21)    git commit -m "Paso 21"
+(22)    git checkout Lola
+(23)    git stash apply
 
