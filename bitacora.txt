@@ -1,13 +1,24 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):       López Alonso, Álvaro           %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(01)    git clone URL
+(02)    git branch Paco
+(03)    git branch Lola
+(04)    git checkout Paco
 (13)    git stash + git checkout master
 (14)                                 En este momento si se hiciera una
 				     fusión de Lola a master se haría por
 				     Fast-Forward ya que master no ha sufrido
 				     ningún cambio desde que Lola se creó.
+(16) git add bitacora.txt
+(17) git commit -m "Paso 17"
+(18) git merge Paco                  Se producen conflictos en bitacora.txt ya que
+				     en las dos ramas se ha editado el archivo, es necesario
+				     reorganizarlo manualmente para resolverlo.
+(19)
+
