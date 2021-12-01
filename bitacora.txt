@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(13)    git stash + git checkout master
+(14)                                 En este momento si se hiciera una
+				     fusión de Lola a master se haría por
+				     Fast-Forward ya que master no ha sufrido
+				     ningún cambio desde que Lola se creó.
